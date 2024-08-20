@@ -1,0 +1,8 @@
+1, Node.js = is a runtime environment outside of browser which on server for javaScript and it isnot a programming language.
+
+2,the engine that node.js run on is on v8 chrome.
+  
+
+3,npm init -y
+
+4, One of the feature is Asynchronous and Event-Driven  = that it is time saver
