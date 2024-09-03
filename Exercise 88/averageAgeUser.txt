@@ -1,0 +1,8 @@
+db.persons.aggregate([
+  {
+    "$group": {
+      "_id": "$company.location.country",
+      "averageAge": { "$avg": "$age" }
+    }
+  }
+])

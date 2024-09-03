@@ -1,0 +1,11 @@
+db.persons.aggregate([
+  {
+    "$group": {
+      "_id": {
+        "gender": "$gender",
+        "isActive": "$isActive"
+      },
+      "count": { "$sum": 1 }
+    }
+  }
+])
